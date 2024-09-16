@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+   
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    background-color: #23394c;
+    border-color: #23394c;
+}
+.Mainheaderimage{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+}
+.Mainheaderimage img{
+    height: 40px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding:20px;
+}
+nav ul li{
+    padding-right: 20px;
+    color: white;
+    cursor: pointer;
+}
+.active{
+    color:#cd0a0a;
+    padding-bottom: 10px;
+    padding-top:12px ;
+
+}
+@media only screen and (max-width: 767px) {
+    .Mainheaderimage img{
+        height: 30px;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding:0px;
+    }
+    nav ul li{
+        font-size: 10px;
+        padding-right: 8px;
+        color: white;
+        cursor: pointer;
+    }
+    nav{
+        padding: 10px;
+    } 
+}
+.maincontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.tablestyle{
+    margin-top: 20px;
+   
+    border-collapse: collapse;
+    
+}
+.tablestyle tr td{
+    text-align: center;
+   border: 1px solid #cbad23;
+   padding: 5px;
+   color: #cbad23;
+}
+.mthroomno{
+    display: flex;
+    justify-content: space-between;
+   align-items: flex-end;
+   text-align: end;
+    flex-direction: row;
+}
+.mth{
+    padding: 0px;
+}
+.subject{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.mthsubject h3{
+    text-align: center;
+}
